@@ -19,10 +19,10 @@ local p = 'PENE8 JAJJA Config.ini'
 -- 📁 CONFIGURACIÓN
 local default_config = {
     states = { totem_on = false, loro_on = false, katana_on = true, katana2_on = true },
-    totem = { offX = 0.02, offY = 0.06, offZ = -0.001, rotX = -45.37, rotY = 75.08, rotZ = 180, sclX = 0.53, sclY = 0.18, sclZ = 0.10, modelId = 1276, name = "Totem" },
+    totem = { offX = -0.15299999713898, offY = 0.074000000953674, offZ = -0.0060000000521541, rotX = -45.37, rotY = 75.08, rotZ = 180, sclX = 0.53, sclY = 0.18, sclZ = 0.1, modelId = 1276, name = "Totem" },
     loro = { offX = 0.32, offY = -0.03, offZ = 0.15, rotX = 0, rotY = 0, rotZ = 0, sclX = 1, sclY = 1, sclZ = 1, modelId = 19078, name = "Loro" },
-    katana = { offX = 0.35, offY = -0.08, offZ = 0.05, rotX = 180, rotY = -120, rotZ = 25, sclX = 1.0, sclY = 1.0, sclZ = 1.0, modelId = 339, name = "Katana L" },
-    katana2 = { offX = -0.35, offY = -0.08, offZ = 0.05, rotX = 180, rotY = 120, rotZ = -25, sclX = 1.0, sclY = 1.0, sclZ = 1.0, modelId = 339, name = "Katana R" }
+    katana = { offX = 0.35, offY = -0.08, offZ = -0.11900000274181, rotX = 180, rotY = -121.87000274658, rotZ = 25, sclX = 1, sclY = 1, sclZ = 1, modelId = 339, name = "Katana L" },
+    katana2 = { offX = 0.35699999332428, offY = -0.1870000064373, offZ = 0.05, rotX = 180, rotY = -65.778999328613, rotZ = 180, sclX = 1.0039999485016, sclY = 1.0119999647141, sclZ = 1.0119999647141, modelId = 339, name = "Katana R" }
 }
 local q = o.load(default_config, p)
 
